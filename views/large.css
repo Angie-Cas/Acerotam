@@ -1,0 +1,24 @@
+@media (max-width: 992px) {
+    /* Index */
+        /* Header */
+        header {
+            background: linear-gradient(358.02deg, rgba(0, 0, 0, 0.36) 50.91%, rgba(0, 0, 0, 0) 111.48%), url(../assets/header-small.png);
+            background-size: cover;
+            background-position: center;
+        }
+
+        header .text-container {
+            width: 100%;
+            color: white;
+        }
+
+        header h1 {
+            color: white;
+        }
+        /* /Header */
+
+        /* Product cards */
+        .cards {
+            /* flex-direction: column; */
+        }
+}

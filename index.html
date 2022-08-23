@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acerotam</title>
+
+    <!-- Libraries -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- /Libraries -->
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="base/style.css">
+    <link rel="stylesheet" href="base/index.css">
+    <link rel="stylesheet" href="components/nav.css">
+    <link rel="stylesheet" href="components/cards.css">
+    <link rel="stylesheet" href="views/small.css">
+    <link rel="stylesheet" href="views/large.css">
+    <link rel="stylesheet" href="views/xxlarge.css">
+    <!-- /Styles -->
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/logo.png" alt="">
+          </a>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#togglenavigation" aria-controls="togglenavigation" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse flex-grow-0" id="togglenavigation">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              <a class="nav-link" href="#">Productos</a>
+              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#">Cómo cotizar</a>
+              <a class="nav-link" href="#">Nosotros</a>
+              <a class="nav-link" href="#">Contacto</a>
+            </div>
+          </div>
+          <button class="navbar-CTA collapse navbar-collapse flex-grow-0">Explorar productos</button>
+        </div>
+    </nav>
+    <!-- /Navbar -->
+
+    <!-- Header -->
+    <header>
+        <div class="container h-100 d-flex align-items-center justify-content-end">
+            <div class="text-container d-flex flex-column">
+                <h1 class="display-5">¿Lo Necesitas? Nosotros lo proporcionamos</h1>
+                <p>Contamos con más de 30 años de experiencia y un amplio inventario de acero de la mejor calidad para satisfacer todas tus necesidades de construcción.</p>
+                <button class="primary">Encuentra tu producto</button>
+            </div>
+        </div>
+    </header>
+    <!-- /Header -->
+
+    <!-- Section: products -->
+    <section>
+        <div class="container d-flex flex-column justify-content-center text-center">
+            <h2>Productos</h2>
+            <p class="section-desc">Construye proyectos que cumplan los más altos estándares con acero ligero, pero altamente resistente.</p>
+            <div class="cards text-start mt-5 mb-5">
+                <div class="product card">
+                    <div class="icon">
+                        <img src="assets/icons-products/lamina-galvanizada.png" alt="">
+                    </div>
+                    <h3>Lámina galvanizada</h3>
+                    <p>Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.</p>
+                    <a href="#"><button class="secondary">Ver más</button></a>
+                </div>
+                <div class="product card">
+                    <div class="icon">
+                        <img src="assets/icons-products/vigas-ipr-i.png" alt="">
+                    </div>
+                    <h3>Vigas IPR I</h3>
+                    <p>Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.</p>
+                    <a href="#"><button class="secondary">Ver más</button></a>
+                </div>
+                <div class="product card">
+                    <div class="icon">
+                        <img src="assets/icons-products/alambre-recocido.png" alt="">
+                    </div>
+                    <h3>Alambre recocido</h3>
+                    <p>Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam.</p>
+                    <a href="#"><button class="secondary">Ver más</button></a>
+                </div>
+            </div>
+            <a href="#"><button class="primary">Ver más</button></a>
+        </div>
+    </section>
+    <!-- /Section: products -->
+
+     <!-- Section: projects -->
+     <section id="proyectos">
+        <div class="container d-flex flex-column justify-content-center text-center">
+            <h2>Proyectos</h2>
+            <p class="section-desc">Neque, pulvinar vestibulum non aliquam.</p>
+            <div class="tags mt-5 d-flex flex-wrap justify-content-center gap-2">
+                <a href="#" class="tag-item active">Todos</a>
+                <a href="#" class="tag-item">Restaurantes</a>
+                <a href="#" class="tag-item">Municipales</a>
+                <a href="#" class="tag-item">Privados</a>
+                <a href="#" class="tag-item">Industriales</a>
+            </div>
+            <div class="cards text-start mt-5 mb-5">
+                <div class="image card">
+                    <img src="assets/projects/edificio-metropolitano.png" alt="">
+                    <div class="content">
+                        <h4>Edificio Metropolitano</h4>
+                        <p>Tampico, Tamaulipas</p>
+                    </div>
+                </div>
+                <div class="image card">
+                    <img src="assets/projects/altama-city-center.png" alt="">
+                    <div class="content">
+                        <h4>Altama City Center</h4>
+                        <p>Tampico, Tamaulipas</p>
+                    </div>
+                </div>
+                <div class="image card">
+                    <img src="assets/projects/parque-eolico.png" alt="">
+                    <div class="content">
+                        <h4>Parque eólico El Cortijo</h4>
+                        <p>Reynosa, Tamaulipas</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#"><button class="primary">Ver más</button></a>
+        </div>
+     </section>
+     <!-- /Section: projects -->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

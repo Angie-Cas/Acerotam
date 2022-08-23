@@ -1,0 +1,69 @@
+/* Header */
+header {
+    background-image: url(../assets/header.png);
+    background-size: cover;
+    background-position: 0 20px;
+    background-repeat: no-repeat;
+    height: 100vh;
+    color: var(--text);
+}
+
+header .text-container {
+    width: 50%;
+    padding-top: 50px;
+}
+
+header .text-container * {
+    align-self: flex-start;
+}
+
+header p {
+    font-size: 18px;
+    margin: 10px 0 20px 0;
+}
+
+/* /Header */
+
+/* Proyectos */
+
+#proyectos {
+    background-image: url(../assets/blueprint-pattern.jpg);
+    background-size: cover;
+}
+
+#proyectos h2 {
+    color: white;
+}
+
+#proyectos .section-desc {
+    color: #E4E4E4;
+}
+
+.tag-item {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 20px;
+    transition-duration: 0.5s;
+}
+
+.tag-item:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+.tag-item.active {
+    background-color: white;
+    color: var(--primary);
+}
+
+#proyectos .image.card {
+    height: 600px;
+}
+
+
+
+
+

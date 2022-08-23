@@ -1,0 +1,9 @@
+@media (max-width: 764px) {
+    .cards {
+        flex-wrap: wrap;
+    }
+
+    .card p {
+        max-width: 100%;
+    }
+}
