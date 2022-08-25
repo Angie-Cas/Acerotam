@@ -15,10 +15,33 @@
         header h1 {
             color: white;
         }
-        /* /Header */
 
-        /* Product cards */
-        .cards {
-            /* flex-direction: column; */
+        /* / Header */
+
+        /* Projects */
+        
+        #proyectos .image.card {
+            height: 500px;
         }
+
+        /* / Projects */
+
+        /* Benefits */
+
+        #benefits .row {
+            flex-direction: column;
+        }
+
+        #benefits .card {
+            width: 100%;
+            height: 500px;
+            margin-bottom: 40px;
+        }
+
+        .argument:last-child {
+            margin-bottom: 0px;
+        }
+        
+
+        /* / Benefits */
 }

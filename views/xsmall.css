@@ -1,0 +1,11 @@
+@media (max-width: 415px) {
+    /* Index */
+        /* Productos */
+        section.products .circle-pattern {
+            display: none;
+        }
+        /* Proyectos */
+    #proyectos .image.card {
+        height: 700px !important;
+    }
+}

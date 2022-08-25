@@ -72,3 +72,17 @@ section {
 .section-desc {
     font-size: 20px;
 }
+
+.blueprint-bg {
+    background-image: url(../assets/blueprint-pattern.jpg);
+    background-size: cover;
+    color: white;
+}
+
+.blueprint-bg h1, .blueprint-bg h2, .blueprint-bg h3, .blueprint-bg h4 {
+    color: white;
+}
+
+.blueprint-bg .section-desc {
+    color: #E4E4E4;
+}

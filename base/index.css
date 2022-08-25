@@ -24,12 +24,30 @@ header p {
 
 /* /Header */
 
-/* Proyectos */
+/* Products */
 
-#proyectos {
-    background-image: url(../assets/blueprint-pattern.jpg);
-    background-size: cover;
+section#products {
+    position: relative;
+    display: flex;
 }
+
+section#products .circle-pattern {
+    position: absolute;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+}
+
+section#products .circle-pattern img {
+    margin: 10px;
+    height: 150px;
+}
+
+/* / Products */
+
+/* Proyectos */
 
 #proyectos h2 {
     color: white;
@@ -63,7 +81,76 @@ header p {
     height: 600px;
 }
 
+#proyectos .image.card:hover {
+    box-shadow: 0px 15px 100px 0px rgba(0, 39, 107, 0.9);
+}
 
+/* Benefits */
 
+#benefits .card {
+    width: 85%;
+}
 
+#benefits .card img {
+    object-fit: cover;
+}
+
+.argument {
+    display: flex;
+    margin-top: 30px;
+}
+
+.argument .content {
+    text-align: left;
+    margin-left: 10px;
+}
+
+.argument img {
+    width: 60px;
+}
+
+.argument:last-child {
+    margin-bottom: 30px;
+}
+
+/* / Benefits */
+
+/* Reviews */
+
+.review {
+    font-size: 40px;
+}
+
+#reviews .carousel-control-next, #reviews .carousel-control-prev {
+    width: 15%;
+    position: relative;
+}
+
+#reviews .carousel-control-next-icon, #reviews .carousel-control-prev-icon {
+    background-color: rgba(255, 255, 255, 0.27);
+    border-radius: 50%;
+    padding: 10px;
+    background-origin: content-box;
+    width: 50px;
+    height: 50px;
+    
+}
+
+.client .icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin-right: 20px;
+}
+
+/* / Reviews */
+
+/* Articles */
+
+#articles .card {
+    height: 500px;
+}
+
+/* / Articles */
 
