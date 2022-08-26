@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="https://use.typekit.net/gce3vuo.css">
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif !important;
 }
 
 :root {
@@ -10,6 +10,7 @@
     --secondary: #FAB429;
     --tertiary: #BD3C37;
     --text: #757575;
+    --light-text: #FFFFFF;
 }
 
 /* Titles */
@@ -73,16 +74,23 @@ section {
     font-size: 20px;
 }
 
-.blueprint-bg {
-    background-image: url(../assets/blueprint-pattern.jpg);
-    background-size: cover;
-    color: white;
-}
+    /* Backgrounds */
 
-.blueprint-bg h1, .blueprint-bg h2, .blueprint-bg h3, .blueprint-bg h4 {
-    color: white;
-}
+    .blueprint-bg {
+        background-image: url(../assets/blueprint-pattern.jpg);
+        background-size: cover;
+        color: white;
+    }
 
-.blueprint-bg .section-desc {
-    color: #E4E4E4;
-}
+    .blueprint-bg h1, .blueprint-bg h2, .blueprint-bg h3, .blueprint-bg h4 {
+        color: white;
+    }
+
+    .blueprint-bg .section-desc {
+        color: #E4E4E4;
+    }
+
+    .blueprint-bg-light {
+        background: url(../assets/blueprint-pattern-light.jpg);
+        background-size: cover;
+    }

@@ -152,5 +152,60 @@ section#products .circle-pattern img {
     height: 500px;
 }
 
+#articles .card:hover {
+    box-shadow: 0px 15px 50px rgba(0, 0, 0, 0.3);
+}
+
 /* / Articles */
+
+/* FAQ */
+
+.accordion {
+    width: 80%;
+}
+
+.accordion-item:first-of-type {
+    border-top: 0;
+    border-radius: 0;
+}
+
+.accordion-item:last-of-type {
+    border-bottom: 0;
+    border-radius: 0;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: white;
+    box-shadow: none;
+}
+
+.accordion-button {
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: black !important;
+}
+
+.accordion-body {
+    text-align: left;
+}
+
+.accordion-body p {
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 2px solid var(--primary);
+}
+
+.accordion-button:after {
+    order: -1; 
+    margin-right:0.5em; /* just extra space between text and icon */
+    margin-left: 0;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='rgb(0, 60, 166, 1)' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M12 5v14m7-7H5' /%3E%3C/svg%3E");
+}
+
+.accordion-button:not(.collapsed)::after {
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2' stroke='rgb(0, 60, 166, 1)' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' d='M5 12h14' /%3E%3C/svg%3E");
+}
+
+/* / FAQ */
 
