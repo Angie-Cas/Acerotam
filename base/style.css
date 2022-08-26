@@ -94,3 +94,23 @@ section {
         background: url(../assets/blueprint-pattern-light.jpg);
         background-size: cover;
     }
+
+    .circle-pattern {
+        position: absolute;
+        width: 100%;
+        /* border: 1px solid red; */
+        display: flex;
+        align-self: center;
+        justify-content: space-between;
+    }
+    
+    .circle-pattern img {
+        margin: 10px;
+        height: 150px;
+    }
+    
+    @media (max-width: 764px) {
+    .circle-pattern {
+        display: none !important;
+    }
+    }

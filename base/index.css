@@ -31,20 +31,6 @@ section#products {
     display: flex;
 }
 
-section#products .circle-pattern {
-    position: absolute;
-    width: 100%;
-    /* border: 1px solid red; */
-    display: flex;
-    align-self: center;
-    justify-content: space-between;
-}
-
-section#products .circle-pattern img {
-    margin: 10px;
-    height: 150px;
-}
-
 /* / Products */
 
 /* Proyectos */
