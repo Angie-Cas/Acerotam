@@ -3,10 +3,13 @@
 }
 
 .navbar {
-    /* position: fixed; */
     font-weight: 500;
     padding: 20px 0px;
     box-shadow: 0px 4px 30px 0px #00000012;
+}
+
+.navbar a {
+    text-decoration: none;
 }
 
 .nav-link {

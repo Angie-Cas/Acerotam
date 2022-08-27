@@ -1,4 +1,6 @@
-<link rel="stylesheet" href="https://use.typekit.net/gce3vuo.css">
+/* Font */
+@import url("https://use.typekit.net/gce3vuo.css");
+/* / Font */
 
 * {
     font-family: 'Lato', sans-serif !important;
@@ -16,7 +18,7 @@
 /* Titles */
 
 h1, h2, h3, h4, h5 {
-    font-weight: bolder !important;
+    font-weight: 900 !important;
     color: #212121;
 }
 
@@ -27,6 +29,7 @@ h2 {
 h4 {
     font-weight: 600 !important;
 }
+
 
 /* Buttons */
 
@@ -62,6 +65,27 @@ h4 {
     border: 1px solid var(--tertiary);
 }
 
+/* Breadcrum */
+
+.breadcrum {
+    display: flex;
+}
+
+.breadcrum a {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--text);
+    transition: 0.5s;
+}
+
+.breadcrum a:hover {
+    color: black;
+}
+
+.breadcrum svg {
+    width: 42px;
+    color: #94A3B8;
+}
 
 /* sections */
 
@@ -72,6 +96,14 @@ section {
 
 .section-desc {
     font-size: 20px;
+    max-width: 60%;
+    align-self: center;
+    margin-top: 15px;
+}
+@media (max-width: 992px) {
+    .section-desc {
+        max-width: 100%;
+    }
 }
 
     /* Backgrounds */
@@ -95,6 +127,21 @@ section {
         background-size: cover;
     }
 
+    .blueprint-bg.small-header {
+        background-image: url(../assets/blueprint-pattern-with-lines.png) !important;
+        background-size: cover;
+        color: white;
+    }
+
+    .circle-bg {
+        background: url(../assets/circle-pattern-bg.png);
+        background-size: contain;
+        background-position: 0 50px;
+        background-repeat: repeat;
+    }
+
+    /* Patterns */
+
     .circle-pattern {
         position: absolute;
         width: 100%;
@@ -102,15 +149,13 @@ section {
         display: flex;
         align-self: center;
         justify-content: space-between;
-    }
+    } @media (max-width: 764px) {
+        .circle-pattern {
+            display: none !important;
+        }
+        }
     
     .circle-pattern img {
         margin: 10px;
         height: 150px;
-    }
-    
-    @media (max-width: 764px) {
-    .circle-pattern {
-        display: none !important;
-    }
     }
