@@ -1,0 +1,49 @@
+.products-table { 
+    position: relative;
+    overflow-x: scroll;
+}
+
+.products-table .table-header {
+    /* position: fixed; */
+    background-color: rgba(0, 60, 166, 0.9);
+}
+
+.products-table th {
+    padding: 20px 10px;
+    color: white;
+    font-weight: 500;
+}
+
+.products-table td {
+    padding: 20px 10px;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+}
+
+.products-table .producto a {
+    color: var(--primary);
+    text-decoration: none;
+    border-bottom: 1px solid var(--primary);
+}
+
+.products-table .producto a:hover {
+    color: var(--tertiary);
+    transition-duration: 0.5s;
+}
+
+.products-table tr:nth-child(2n+1):not(.table-header) {
+    background-color: rgba(53, 99, 233, 0.05);
+}
+
+.cotizar a {
+    padding: 7px 30px;
+    background-color: var(--secondary);
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+}
+
+.cotizar a:hover {
+    background-color: var(--tertiary);
+    color: white;
+}

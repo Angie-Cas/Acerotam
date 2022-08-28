@@ -65,17 +65,62 @@ h4 {
     border: 1px solid var(--tertiary);
 }
 
+.tertiary-light {
+    border: 1px solid white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: 600;
+}
+
+.tertiary-light:hover {
+    background-color: rgba(255, 255, 255, 0.07);
+    color: white;
+}
+
+.tertiary-dark {
+    border: 1px solid var(--primary);
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: var(--primary);
+    text-decoration: none;
+    transition-duration: 0.5s;
+    font-weight: 600;
+}
+
+.tertiary-dark:hover {
+    background-color: rgba(0, 60, 166, 0.07);
+}
+
+.tertiary-dark svg {
+    width: 16px;
+    margin: -5px 5px 0 0;
+}
+
 /* Breadcrum */
 
 .breadcrum {
     display: flex;
+    margin: 20px 0 40px 0;
+}
+
+.breadcrum .col {
+    padding: 0;
+    margin-left: -10px;
+} @media (max-width: 415px) {
+    .breadcrum .col {
+        margin-left: 0;
+    }
 }
 
 .breadcrum a {
     text-decoration: none;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--text);
     transition: 0.5s;
+    width: 5;
 }
 
 .breadcrum a:hover {
@@ -83,8 +128,9 @@ h4 {
 }
 
 .breadcrum svg {
-    width: 42px;
-    color: #94A3B8;
+    width: 16px;
+    color: var(--text);
+    margin: 0 10px;
 }
 
 /* sections */

@@ -10,9 +10,9 @@
      <!-- /Libraries -->
      <!-- Styles -->
      <link rel="stylesheet" href="../base/style.css">
-     <link rel="stylesheet" href="../base/index.css">
      <link rel="stylesheet" href="../components/nav.css">
-     <link rel="stylesheet" href="../components/cards.css">
+     <link rel="stylesheet" href="../components/products.css">
+     <link rel="stylesheet" href="../components/tables.css">
      <link rel="stylesheet" href="../components/footer.css">
      <link rel="stylesheet" href="../views/xsmall.css">
      <link rel="stylesheet" href="../views/small.css">
@@ -48,18 +48,161 @@
     </nav>
     <!-- /Navbar -->
     <!-- Section: Product information -->
-    <section class="product-info">
+    <section class="product">
         <div class="container">
             <div class="row breadcrum">
-                <a href="../index.html">Inicio</a> 
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                </svg>
-                <a href="../productos.html">Productos</a>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
-                </svg>
-                <a href="#" class="current">Vigas IPR I</a>
+                <div class="col">
+                    <a href="../index.html">Inicio</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    <a href="../productos.html">Productos</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                    </svg>
+                    <a href="#" class="current">Vigas IPR I</a>
+                </div>
+            </div>
+            <div class="row product-info">
+                <div class="col icon">
+                    <img src="../assets/icons-products/vigas-ipr-i-2.png" alt="">
+                    <a href="#" class="tertiary-light">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
+                        </svg>                          
+                        Ver imagen</a>
+                </div>
+                <div class="col text">
+                    <h1>Vigas IPR I</h1>
+                    <p>Neque, pulvinar vestibulum non aliquam. Aliquam vehicula pellentesque id mi quam ipsum. Arcu nisl faucibus mattis etiam. Et hendrerit turpis habitant cursus semper ultrices in nunc. Erat eget etiam senectus vestibulum risus.</p>
+                    <div class="links">
+                        <a href="#" class="tertiary-dark">Ver guía de medidas</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row table-config">
+                <div class="col">
+                    <a href="#" class="tertiary-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
+                            <path fill-rule="evenodd" d="M3.792 2.938A49.069 49.069 0 0112 2.25c2.797 0 5.54.236 8.209.688a1.857 1.857 0 011.541 1.836v1.044a3 3 0 01-.879 2.121l-6.182 6.182a1.5 1.5 0 00-.439 1.061v2.927a3 3 0 01-1.658 2.684l-1.757.878A.75.75 0 019.75 21v-5.818a1.5 1.5 0 00-.44-1.06L3.13 7.938a3 3 0 01-.879-2.121V4.774c0-.897.64-1.683 1.542-1.836z" clip-rule="evenodd" />
+                        </svg>
+                        Añadir filtros</a>
+                    <a href="#" class="tertiary-dark">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="3" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>                                                   
+                        Mostrar propiedades</a>
+                </div>
+            </div>
+            <div class="row">
+                <table class="products-table">
+                    <tr class="table-header">
+                        <th class="producto">Producto</th>
+                        <th class="dimensiones">Dimensiones (mm)</th>
+                        <th class="peso">Peso (Kg)</th>
+                        <th class="peralte">Peralte (mm)</th>
+                        <th class="cotizar">Cotizar</th>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">1902152MM13</a></td>
+                        <td class="dimensiones">152.4x101.6</td>
+                        <td class="peso">13.4</td>
+                        <td class="peralte">150</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">1903152MM17</a></td>
+                        <td class="dimensiones">152.4x101.6</td>
+                        <td class="peso">17.9</td>
+                        <td class="peralte">153</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">1904152MM23</a></td>
+                        <td class="dimensiones">152.4x101.6</td>
+                        <td class="peso">23.8</td>
+                        <td class="peralte">160</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">1905152MM22</a></td>
+                        <td class="dimensiones">152.4x152.4</td>
+                        <td class="peso">22.5</td>
+                        <td class="peralte">152</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">1906203MM14</a></td>
+                        <td class="dimensiones">203.2x101.5</td>
+                        <td class="peso">14.9</td>
+                        <td class="peralte">200</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">1907152MM12</a></td>
+                        <td class="dimensiones">203.2x101.5</td>
+                        <td class="peso">19.4</td>
+                        <td class="peralte">203</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX3948C</a></td>
+                        <td class="dimensiones">203.2x101.5</td>
+                        <td class="peso">22.5</td>
+                        <td class="peralte">206</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX394SO</a></td>
+                        <td class="dimensiones">203.2x133.4</td>
+                        <td class="peso">26.9</td>
+                        <td class="peralte">207</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX394D0</a></td>
+                        <td class="dimensiones">203.2x203.2</td>
+                        <td class="peso">46.1</td>
+                        <td class="peralte">203</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX394DB</a></td>
+                        <td class="dimensiones">254.0x101.6</td>
+                        <td class="peso">17.9</td>
+                        <td class="peralte">251</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX394SD</a></td>
+                        <td class="dimensiones">254.0x101.6</td>
+                        <td class="peso">22.4</td>
+                        <td class="peralte">254</td>
+                        <td class="cotizar"><a href="#">Cotizar</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX394F9</a></td>
+                        <td class="dimensiones">254.0x101.6</td>
+                        <td class="peso">25.5</td>
+                        <td class="peralte">257</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX394C0</a></td>
+                        <td class="dimensiones">254.0x101.6</td>
+                        <td class="peso">28.3</td>
+                        <td class="peralte">260</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                    <tr>
+                        <td class="producto"><a href="#">12L14HX3949U</a></td>
+                        <td class="dimensiones">254.0x146.0</td>
+                        <td class="peso">32.8</td>
+                        <td class="peralte">258</td>
+                        <td class="cotizar"><a href="#">Agregar a cotización</a></td>
+                    </tr>
+                     
+                </table>
             </div>
         </div>
     </section>

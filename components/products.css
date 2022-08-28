@@ -1,0 +1,63 @@
+.icon {
+    position: relative;
+    background: url(../assets/blueprint-pattern-for-icon.png);
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.icon a {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.icon svg {
+    width: 16px;
+    margin: -2px 5px 0 0;
+}
+
+.text h1 {
+    margin-bottom: 20px;
+    font-size: 48px;
+}
+
+.text .links {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.text {
+    flex: 2 0 0%;
+}
+
+.table-config .col {
+    padding: 40px 20px 20px 0;
+}
+
+@media (max-width: 992px) {
+    .text {
+        flex: 1 0 0%;
+    }
+}
+
+@media (max-width: 764px) {
+    .product-info .col {
+        flex-basis: 100%;
+    }
+
+    .icon {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 415px) {
+    .table-config .col {
+        padding: 40px 20px 20px 10px;
+    }
+}
+
