@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 30px;
+    flex-basis: 35%;
 }
 
 .icon a {
@@ -19,29 +19,41 @@
     margin: -2px 5px 0 0;
 }
 
+.text {
+    flex-basis: 65%;
+    padding-left: 40px;
+}
+
 .text h1 {
     margin-bottom: 20px;
     font-size: 48px;
 }
 
 .text .links {
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
 
-.text {
-    flex: 2 0 0%;
+.table-config .col {
+    padding: 40px 20px 40px 0;
+    display: flex;
+    gap: 10px;
 }
 
-.table-config .col {
-    padding: 40px 20px 20px 0;
+.table-config a {
+    background-color: rgba(0, 60, 166, 0.05);
+}
+
+.table-config a:hover {
+    background-color: rgba(0, 60, 166, 0.2);
 }
 
 @media (max-width: 992px) {
     .text {
-        flex: 1 0 0%;
+        padding-left: 0;
+        padding-top: 20px;
     }
 }
 
@@ -52,6 +64,12 @@
 
     .icon {
         margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .text {
+        padding: 20px 10px 0 10px;
     }
 }
 

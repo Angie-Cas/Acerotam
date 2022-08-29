@@ -41,6 +41,9 @@ h4 {
     padding: 15px 50px ;
     border-radius: 5px;
     transition-duration: 0.5s;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
 }
 
 .primary:hover {
@@ -195,6 +198,7 @@ section {
         display: flex;
         align-self: center;
         justify-content: space-between;
+        z-index: -1;
     } @media (max-width: 764px) {
         .circle-pattern {
             display: none !important;

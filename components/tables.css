@@ -1,10 +1,12 @@
-.products-table { 
-    position: relative;
+.products {
     overflow-x: scroll;
 }
 
+.products-table { 
+    position: relative;
+}
+
 .products-table .table-header {
-    /* position: fixed; */
     background-color: rgba(0, 60, 166, 0.9);
 }
 
@@ -34,6 +36,10 @@
     background-color: rgba(53, 99, 233, 0.05);
 }
 
+.cotizar {
+    text-align: center;
+}
+
 .cotizar a {
     padding: 7px 30px;
     background-color: var(--secondary);
@@ -46,4 +52,27 @@
 .cotizar a:hover {
     background-color: var(--tertiary);
     color: white;
+}
+
+.table-pagination {
+    display: flex;
+}
+
+.table-pagination p {
+    margin: 0 5px;
+}
+
+.table-pagination a {
+    color: var(--text);
+    text-decoration: none;
+}
+
+.table-pagination .previous, .table-pagination .next {
+    width: 16px;
+    margin: 0 5px;
+    transition-duration: 0.5s;
+}
+
+.table-pagination .previous:hover, .table-pagination .next:hover {
+    opacity: 0.5;
 }

@@ -1,0 +1,99 @@
+.in-product-cotizar {
+    margin: 20px 0px 0 0;
+    padding: 0 0px 0 0;
+    flex-basis: 35%;
+}
+
+.cantidad, .modificador {
+    display: flex;
+}
+
+.cantidad p {
+    margin-right: 20px;
+    margin-top: 5px;
+}
+
+.less, .more {
+    width: 50px;
+    height: 40px;
+    border: 1px solid #94A3B8;
+    background-color: rgba(181, 200, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.less:hover, .more:hover {
+    background-color: rgba(181, 200, 255, 0.3);
+}
+
+.number {
+    width: 60px;
+    height: 40px;
+    border-top: 1px solid #94A3B8;
+    border-bottom: 1px solid #94A3B8;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.number::placeholder {
+    color: #BBBBBB;
+}
+
+.in-product-cotizar a.primary {
+    width: 100%;
+    height: 42px;
+    margin-left: 20px;
+    font-size: 16px;
+    display: block;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.properties {
+    flex-basis: 65%;
+    padding-left: 40px;
+}
+
+.text h2 {
+    font-weight: 400 !important;
+    color: var(--text);
+    margin-bottom: 20px;
+}
+
+.properties div {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(224, 224, 224, 1);
+    margin: 15px 0;
+}
+
+.properties div p:first-child {
+    font-weight: 700;
+    color: black;
+}
+
+@media (max-width: 992px) {
+    .properties {
+        padding-left: 0;
+        padding-top: 20px;
+        order: -1;
+    }
+}
+
+@media (max-width: 576px) {
+    .properties {
+        padding: 20px 10px 0 10px;
+    }
+
+    .in-product-cotizar {
+        padding: 0 10px;
+    }
+}
